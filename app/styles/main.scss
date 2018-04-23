@@ -49,7 +49,7 @@ body {
 
 .video-container {
   position: relative;
-  padding-bottom: 56.25%; /*16:9*/
+  padding-bottom: 53.25%; /*16:9*/
   padding-top: 30px;
   height: 0;
   overflow: hidden;
@@ -88,7 +88,6 @@ body {
 
 }
 
-
 .art-divider-top {
   border-top: 2px solid $white-five;
   width: 100%;
@@ -126,6 +125,54 @@ body {
   &__text {
     font-size: 18px;
     line-height: 1.67;
+  }
+}
+
+.art-sun {
+  display: flex;
+
+  &__content {
+    width: 60%;
+    position: relative;
+    background-color: rgb(254, 239, 138);
+    padding: 45px 10% 45px 50px;
+
+    &:before, &:after {
+      z-index: -1;
+      position: absolute;
+      content: "";
+      bottom: 15px;
+      left: 10px;
+      width: 50%;
+      top: 80%;
+      max-width: 300px;
+      box-shadow: 0 15px 16px rgba(9,9,9,0.3);
+      transform: rotate(-2deg);
+    }
+
+    &:after {
+      transform: rotate(2deg);
+      right: 0px;
+      left: auto;
+    }
+
+    &_text {
+      font-family: PatrickHand;
+      font-size: 26px;
+      line-height: 1.38;
+    }
+
+    &_author {
+      font-size: 24px;
+      font-weight: bold;
+      line-height: normal;
+      text-align: right;
+    }
+  }
+
+  &__photo {
+    width: 40%;
+    position: relative;
   }
 }
 
@@ -453,6 +500,8 @@ body {
     padding: 32px 13% 29px;
     border: solid 2px $red;
     text-align: center;
+    position: relative;
+    margin-bottom: 97px;
 
     &_title {
       font-size: 24px;
@@ -468,6 +517,68 @@ body {
       u {
         font-weight: 500;
       }
+    }
+
+    &_arrow {
+      position: absolute;
+      top: 91%;
+      right: 6%;
+      width: 26px;
+      height: 57px;
+      z-index: 1;
+    }
+  }
+
+  &__next-8 {
+    margin-bottom: 130px;
+    .art-sun__content {
+      width: calc(63% + 50px);
+    }
+    .art-sun__photo {
+      margin: -21px 0 -60px -50px;
+    }
+  }
+
+  &__next-9 {
+    padding-bottom: 0;
+    border: none;
+    margin-bottom: 20px;
+
+    .art-3__next-3_text {
+      width: 69%;
+    }
+
+    &_see {
+      text-align: center;
+      color: $red;
+      margin-top: 50px;
+
+      span {
+        position: relative;
+        display: inline-block;
+        img {
+          position: absolute;
+          top: 65%;
+          right: -20px;
+        }
+      }
+    }
+  }
+
+  &__next-10 {
+    img {
+      margin: auto;
+    }
+
+    &_title {
+      font-weight: bold;
+      color: $red;
+      font-size: 20px;
+      margin-top: 50px;
+    }
+
+    .p-descr {
+      margin-top: 35px;
     }
   }
 }
