@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "SanFranciscoText-MediumItalic";
+    src: url("SanFranciscoText-MediumItalic.eot");
+    src: url("SanFranciscoText-MediumItalic.eot?#iefix") format("embedded-opentype"),
+         url("SanFranciscoText-MediumItalic.woff2") format("woff2"),
+         url("SanFranciscoText-MediumItalic.woff") format("woff"),
+         url("SanFranciscoText-MediumItalic.ttf") format("ttf"),
+         url("SanFranciscoText-MediumItalic.svg#SanFranciscoText-MediumItalic") format("svg");
+    font-style: italic;
+    font-weight: regular;
+}

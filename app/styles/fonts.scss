@@ -1,0 +1,154 @@
+@font-face {
+    font-family: "ArtySignature";
+    src: url("../fonts/Arty Signature.eot");
+    src: url("../fonts/Arty Signature.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/Arty Signature.woff2") format("woff2"),
+         url("../fonts/Arty Signature.woff") format("woff"),
+         url("../fonts/Arty Signature.ttf") format("ttf"),
+         url("../fonts/Arty Signature.svg#ArtySignature") format("svg");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "PatrickHand";
+    src: url("../fonts/PatrickHand-Regular.eot");
+    src: url("../fonts/PatrickHand-Regular.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/PatrickHand-Regular.woff2") format("woff2"),
+         url("../fonts/PatrickHand-Regular.woff") format("woff"),
+         url("../fonts/PatrickHand-Regular.ttf") format("ttf"),
+         url("../fonts/PatrickHand-Regular.svg#PatrickHand-Regular") format("svg");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "SanFranciscoText";
+    src: url("../fonts/SanFranciscoText-Bold.eot");
+    src: url("../fonts/SanFranciscoText-Bold.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/SanFranciscoText-Bold.woff2") format("woff2"),
+         url("../fonts/SanFranciscoText-Bold.woff") format("woff"),
+         url("../fonts/SanFranciscoText-Bold.ttf") format("ttf"),
+         url("../fonts/SanFranciscoText-Bold.svg#SanFranciscoText-Bold") format("svg");
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: "SanFranciscoText";
+    src: url("../fonts/SanFranciscoText-BoldItalic.eot");
+    src: url("../fonts/SanFranciscoText-BoldItalic.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/SanFranciscoText-BoldItalic.woff2") format("woff2"),
+         url("../fonts/SanFranciscoText-BoldItalic.woff") format("woff"),
+         url("../fonts/SanFranciscoText-BoldItalic.ttf") format("ttf"),
+         url("../fonts/SanFranciscoText-BoldItalic.svg#SanFranciscoText-BoldItalic") format("svg");
+    font-style: italic;
+    font-weight: 700;
+}
+@font-face {
+    font-family: "SanFranciscoText";
+    src: url("../fonts/SanFranciscoText-Heavy.eot");
+    src: url("../fonts/SanFranciscoText-Heavy.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/SanFranciscoText-Heavy.woff2") format("woff2"),
+         url("../fonts/SanFranciscoText-Heavy.woff") format("woff"),
+         url("../fonts/SanFranciscoText-Heavy.ttf") format("ttf"),
+         url("../fonts/SanFranciscoText-Heavy.svg#SanFranciscoText-Heavy") format("svg");
+    font-style: normal;
+    font-weight: 900;
+}
+@font-face {
+    font-family: "SanFranciscoText";
+    src: url("../fonts/SanFranciscoText-HeavyItalic.eot");
+    src: url("../fonts/SanFranciscoText-HeavyItalic.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/SanFranciscoText-HeavyItalic.woff2") format("woff2"),
+         url("../fonts/SanFranciscoText-HeavyItalic.woff") format("woff"),
+         url("../fonts/SanFranciscoText-HeavyItalic.ttf") format("ttf"),
+         url("../fonts/SanFranciscoText-HeavyItalic.svg#SanFranciscoText-HeavyItalic") format("svg");
+    font-style: italic;
+    font-weight: 900;
+}
+@font-face {
+    font-family: "SanFranciscoText";
+    src: url("../fonts/SanFranciscoText-Light.eot");
+    src: url("../fonts/SanFranciscoText-Light.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/SanFranciscoText-Light.woff2") format("woff2"),
+         url("../fonts/SanFranciscoText-Light.woff") format("woff"),
+         url("../fonts/SanFranciscoText-Light.ttf") format("ttf"),
+         url("../fonts/SanFranciscoText-Light.svg#SanFranciscoText-Light") format("svg");
+    font-style: normal;
+    font-weight: 200;
+}
+@font-face {
+    font-family: "SanFranciscoText";
+    src: url("../fonts/SanFranciscoText-LightItalic.eot");
+    src: url("../fonts/SanFranciscoText-LightItalic.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/SanFranciscoText-LightItalic.woff2") format("woff2"),
+         url("../fonts/SanFranciscoText-LightItalic.woff") format("woff"),
+         url("../fonts/SanFranciscoText-LightItalic.ttf") format("ttf"),
+         url("../fonts/SanFranciscoText-LightItalic.svg#SanFranciscoText-LightItalic") format("svg");
+    font-style: italic;
+    font-weight: 200;
+}
+@font-face {
+    font-family: "SanFranciscoText";
+    src: url("../fonts/SanFranciscoText-Medium.eot");
+    src: url("../fonts/SanFranciscoText-Medium.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/SanFranciscoText-Medium.woff2") format("woff2"),
+         url("../fonts/SanFranciscoText-Medium.woff") format("woff"),
+         url("../fonts/SanFranciscoText-Medium.ttf") format("ttf"),
+         url("../fonts/SanFranciscoText-Medium.svg#SanFranciscoText-Medium") format("svg");
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: "SanFranciscoText";
+    src: url("../fonts/SanFranciscoText-MediumItalic.eot");
+    src: url("../fonts/SanFranciscoText-MediumItalic.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/SanFranciscoText-MediumItalic.woff2") format("woff2"),
+         url("../fonts/SanFranciscoText-MediumItalic.woff") format("woff"),
+         url("../fonts/SanFranciscoText-MediumItalic.ttf") format("ttf"),
+         url("../fonts/SanFranciscoText-MediumItalic.svg#SanFranciscoText-MediumItalic") format("svg");
+    font-style: italic;
+    font-weight: 500;
+}
+@font-face {
+    font-family: "SanFranciscoText";
+    src: url("../fonts/SanFranciscoText-Regular.eot");
+    src: url("../fonts/SanFranciscoText-Regular.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/SanFranciscoText-Regular.woff2") format("woff2"),
+         url("../fonts/SanFranciscoText-Regular.woff") format("woff"),
+         url("../fonts/SanFranciscoText-Regular.ttf") format("ttf"),
+         url("../fonts/SanFranciscoText-Regular.svg#SanFranciscoText-Regular") format("svg");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "SanFranciscoText";
+    src: url("../fonts/SanFranciscoText-RegularItalic.eot");
+    src: url("../fonts/SanFranciscoText-RegularItalic.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/SanFranciscoText-RegularItalic.woff2") format("woff2"),
+         url("../fonts/SanFranciscoText-RegularItalic.woff") format("woff"),
+         url("../fonts/SanFranciscoText-RegularItalic.ttf") format("ttf"),
+         url("../fonts/SanFranciscoText-RegularItalic.svg#SanFranciscoText-RegularItalic") format("svg");
+    font-style: italic;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "SanFranciscoText";
+    src: url("../fonts/SanFranciscoText-Semibold.eot");
+    src: url("../fonts/SanFranciscoText-Semibold.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/SanFranciscoText-Semibold.woff2") format("woff2"),
+         url("../fonts/SanFranciscoText-Semibold.woff") format("woff"),
+         url("../fonts/SanFranciscoText-Semibold.ttf") format("ttf"),
+         url("../fonts/SanFranciscoText-Semibold.svg#SanFranciscoText-Semibold") format("svg");
+    font-style: normal;
+    font-weight: 600;
+}
+@font-face {
+    font-family: "SanFranciscoText";
+    src: url("../fonts/SanFranciscoText-SemiboldItalic.eot");
+    src: url("../fonts/SanFranciscoText-SemiboldItalic.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/SanFranciscoText-SemiboldItalic.woff2") format("woff2"),
+         url("../fonts/SanFranciscoText-SemiboldItalic.woff") format("woff"),
+         url("../fonts/SanFranciscoText-SemiboldItalic.ttf") format("ttf"),
+         url("../fonts/SanFranciscoText-SemiboldItalic.svg#SanFranciscoText-SemiboldItalic") format("svg");
+    font-style: italic;
+    font-weight: 600;
+}
