@@ -1602,3 +1602,28 @@ body {
   max-width: 1100px;
   margin: 75px auto;
 }
+
+.art-guarante {
+  padding: 110px;
+  position: relative;
+  background: url(../img/layer-39.png) no-repeat bottom left / 100% auto,
+              url(../img/layer-38.png) no-repeat top left / 100% auto,
+              url(../img/layer-40.png) repeat-y left 18px / 100% auto;
+
+
+  &__pattern {
+    position: absolute;
+  }
+
+  &_title-1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    color: $red;
+    margin-bottom: 35px;
+  }
+
+  .p-descr {
+    margin-bottom: 20px;
+  }
+}
