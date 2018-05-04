@@ -170,7 +170,7 @@ body {
 
     &:after {
       transform: rotate(2deg);
-      right: 0px;
+      right: 6px;
       left: auto;
     }
 
@@ -226,6 +226,34 @@ body {
     transform: translateY(-5px);
     box-shadow: 0px 1px 18px 0 rgba(30, 30, 30, 0.2);
     background-image: linear-gradient(115deg, #9dd824, #40ba08);
+  }
+}
+
+.custom-button-square {
+  max-width: 450px;
+  width: 100%;
+  height: 70px;
+  border-radius: 10px;
+  background-image: linear-gradient(15deg, rgb(62, 169, 66) 1%, rgb(95, 210, 99));
+  box-shadow: 0px 4px 13px 0 rgba(30, 30, 30, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.96;
+  letter-spacing: normal;
+  text-align: left;
+  color: $white;
+  transition: transform 0.5s, box-shadow 0.5s;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 1px 18px 0 rgba(30, 30, 30, 0.2);
+    background-image: linear-gradient(115deg, rgb(62, 169, 66) 1%, rgb(95, 210, 99));
   }
 }
 
@@ -960,10 +988,295 @@ body {
       }
     }
   }
+
+  &__next-5 {
+    text-align: center;
+    margin: 100px 0 60px;
+
+    &_title-1 {
+      font-size: 26px;
+      font-weight: bold;
+      line-height: 1.15;
+      color: rgb(60, 179, 0);
+    }
+
+    .custom-button-nature {
+      margin: 35px auto 40px;;
+    }
+
+    .p-descr {
+      text-align: center;
+    }
+  }
+
+  &__next-6 {
+    display: flex;
+    margin: -50px 0 85px;
+
+    &_content {
+      width: 45.5%;
+      padding-right: 20px;
+
+      .p-descr {
+        & + .p-descr {
+          margin-top: 35px;
+        }
+      }
+    }
+
+    &_img {
+      width: 53.5%;
+      .p-descr {
+        text-align: center;
+      }
+    }
+  }
+
+  &__next-7 {
+    padding: 45px 50px 20px;
+    border: solid 2px rgb(60, 179, 0);
+
+    &_title-1 {
+      font-size: 40px;
+      font-weight: bold;
+      line-height: 0.75;
+      color: rgb(60, 179, 0);
+      text-align: center;
+      margin-bottom: 45px;
+    }
+
+    &_list {
+      display: flex;
+      justify-content: space-between;
+      & > * {
+        width: 45%;
+      }
+      &_item {
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1.33;
+        text-align: left;
+        color: $black-three;
+        margin-bottom: 35px;
+        padding-left: 56px;
+        position: relative;
+
+        &:before {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 36px;
+          height: 36px;
+          background: url(../img/icons-8-verified-account-64.png) no-repeat left top / cover;
+        }
+      }
+    }
+  }
+
+  &__next-8 {
+    &.art-3__title-1 {
+      max-width: 635px;
+      font-size: 38px;
+      line-height: 1.3;
+      margin: 80px auto 60px;
+
+      img {
+        max-width: 507px;
+        margin: -10px auto 0;
+      }
+    }
+  }
+}
+
+.art-pro-plan {
+  background-color: $white;
+  box-shadow: 0px 4px 13px 0 rgba(30, 30, 30, 0.18);
+  margin-bottom: 110px;
+
+  &__head {
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    background-image: linear-gradient(15deg, rgb(0, 150, 255), rgb(0, 192, 255));
+
+    img {
+      position: absolute;
+      left: -10px;
+      top: -10px;
+    }
+
+    span {
+      font-size: 51px;
+      font-weight: 300;
+      line-height: 0.47;
+      color: $white;
+    }
+  }
+
+  &__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 30px 30px 50px;
+
+    &_list {
+      width: 44%;
+
+      &_item {
+        position: relative;
+        padding-left: 50px;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 1.33;
+        text-align: left;
+        margin-bottom: 20px;
+
+        &:before {
+          content: '';
+          width: 32px;
+          height: 32px;
+          background: url(../img/icons-8-checked-48-2.png) no-repeat top left / cover;
+          position: absolute;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+        }
+      }
+    }
+  }
+
+  &__button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .custom-button-square {
+      margin: 0 4%;
+    }
+  }
+
+  &__footer {
+    &_top {
+      padding: 7px 8px;
+      background-color: rgb(255, 174, 0);
+      text-align: center;
+      font-size: 18px;
+      font-weight: bold;
+      color: $white;
+
+      span {
+        color: rgb(140, 96, 0);
+      }
+    }
+
+    &_bottom {
+      padding: 40px 15px;
+      background-color: rgb(255, 241, 211);
+    }
+  }
 }
 
 /*** Art-6 ***/
 
 .art-6 {
+  &__next-1 {
+    .art-3__title-1 {
+      margin: 0 auto 85px;
+      line-height: 1.25;
 
+      img {
+        max-width: 357px;
+        margin: -5px auto 0;
+      }
+    }
+  }
+}
+
+.art-3__title-1 {
+  .title-plus {
+    font-size: 20px;
+    display: block;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: -5px;
+  }
+}
+
+.art-books {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 10px;
+  margin-bottom: 100px;
+
+  &__item {
+    background-color: $white;
+    box-shadow: 0px 4px 13px 0 rgba(30, 30, 30, 0.18);
+    width: 30.7%;
+
+    &_head {
+      height: 70px;
+      display: flex;
+      background-image: linear-gradient(15deg, rgb(0, 150, 255), rgb(0, 192, 255));
+      align-items: center;
+
+      &_number {
+        height: 100%;
+        min-width: 21.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 54px;
+        font-weight: bold;
+        color: $white;
+        background-color: rgb(0, 101, 171);
+      }
+
+      &_title {
+        padding: 0px 18px;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1.33;
+        text-align: left;
+        color: $white;
+      }
+    }
+
+    &_cost {
+      text-align: center;
+      padding: 7px 10px;
+      background-color: rgb(255, 174, 0);
+      font-size: 14px;
+      font-weight: bold;
+      color: rgb(120, 82, 0);
+    }
+
+    &_body {
+      padding-bottom: 40px;
+
+      &_img {
+        padding-top: 28px;
+        height: 175px;
+        img {
+          margin: auto;
+        }
+      }
+    }
+
+    &_text {
+      padding: 0 23px;
+      font-size: 14px;
+      line-height: 1.71;
+
+      & + & {
+        margin-top: 25px;
+      }
+    }
+  }
 }
