@@ -1554,6 +1554,45 @@ body {
       padding-left: 35%;
     }
   }
+
+  &__next-8 {
+    .art-5__next-7 {
+      padding: 0;
+      border: solid 2px $red;
+
+      .art-5__next-7_title-1 {
+        padding: 46px 10px;
+        background: $red;
+        color: #fff;
+        margin-bottom: 0;
+      }
+
+      .art-5__next-7_list {
+        padding: 50px 40px 0;
+      }
+
+      .art-5__next-7_list_item {
+        font-weight: 300;
+        font-size: 20px;
+      }
+
+      .art-5__next-7_list_item:before {
+        background: url(../img/icons-8-delete-48-copy.png) no-repeat left top/cover;
+        top: 8px;
+      }
+    }
+
+    &_footer {
+      text-align: center;
+      padding: 35px 15px;
+      background-color: $white-seven;
+
+      .p-descr {
+        margin: auto;
+        max-width: none;
+      }
+    }
+  }
 }
 
 .divider-1100 {
