@@ -104,7 +104,7 @@ gulp.task('html', ['styles', 'scripts'], () => {
 
 gulp.task('images', () => {
   return gulp.src('app/img/**/*')
-    .pipe($.cache($.imagemin()))
+    // .pipe($.cache($.imagemin()))
     .pipe(gulp.dest('dist/img'));
 });
 
