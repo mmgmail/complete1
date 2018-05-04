@@ -51,6 +51,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: $white;
+  font-weight: 300;
 }
 
 .text-red {
@@ -1184,20 +1185,6 @@ body {
 
 /*** Art-6 ***/
 
-.art-6 {
-  &__next-1 {
-    .art-3__title-1 {
-      margin: 0 auto 85px;
-      line-height: 1.25;
-
-      img {
-        max-width: 357px;
-        margin: -5px auto 0;
-      }
-    }
-  }
-}
-
 .art-3__title-1 {
   .title-plus {
     font-size: 20px;
@@ -1276,6 +1263,89 @@ body {
 
       & + & {
         margin-top: 25px;
+      }
+    }
+  }
+}
+
+.art-6 {
+
+  &__next-1 {
+    .art-3__title-1 {
+      margin: 0 auto 85px;
+      line-height: 1.25;
+
+      img {
+        max-width: 357px;
+        margin: -5px auto 0;
+      }
+    }
+  }
+
+  &__next-2 {
+    padding: 60px 90px;
+    background: $black-three url(../img/layer-28.png) no-repeat left bottom / 100% auto;
+
+    &_title-1 {
+      font-size: 38px;
+      font-weight: bold;
+      text-align: center;
+      color: $red;
+      max-width: 530px;
+      margin: 0 auto 68px;
+
+      span {
+        color: #fff;
+      }
+    }
+
+    &_inner {
+      max-width: 940px;
+      margin: auto;
+      background-color: rgb(33, 33, 33);
+      padding: 30px;
+
+      &_title {
+        display: flex;
+        align-items: center;
+        max-width: 650px;
+        margin: auto;
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(255, 174, 0);
+        margin-bottom: 28px;
+
+        img {
+          margin-right: 25px;
+        }
+      }
+
+      &_grid {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      &_item {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        min-height: 260px;
+        border: solid 2px rgb(83, 83, 83);
+        text-align: center;
+        padding: 0 10px 15px;
+
+        img {
+          margin-top: 57px;
+        }
+
+        &_title {
+          max-width: 190px;
+          color: $white;
+          font-size: 20px;
+          margin-top: 25px;
+        }
       }
     }
   }
